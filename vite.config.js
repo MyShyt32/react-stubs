@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: 'https://myshyt32.github.io/react-stubs/',
   plugins: [react()],
-  assetsInclude: ["**/*.svg"]
+  assetsInclude: ["**/*.*"]
 })
